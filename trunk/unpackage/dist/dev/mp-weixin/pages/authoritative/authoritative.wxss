@@ -1,0 +1,214 @@
+
+page {
+	background: #F7F7F8;
+}
+.condition-text{
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 300rpx;
+}
+.verticalLine{
+    width: 2rpx;
+    background: #C6CAD4;
+    height: 36rpx;
+}
+.record-time-msg{
+    margin-top: 6rpx;
+
+    font-size:24rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(198,202,212,1);
+    line-height:34rpx;
+}
+.record-time-box{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    margin-left: 10rpx;
+}
+.record-time-num{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-content: center;
+            align-content: center;
+   
+    height:36rpx;
+    min-width: 36rpx;
+    background:rgba(247,207,65,1);
+    border-radius:20rpx;
+    padding: 0rpx 10rpx;
+    
+    margin-top: 34rpx;
+    font-size:24rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:32rpx;
+}
+.record-des{
+    margin-left: 18rpx;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+}
+.record-name{
+    font-size:34rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(22,32,46,1);
+    line-height:48rpx;
+}
+.record-name-des{
+    margin-top: 24rpx;
+    font-size:28rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(162,169,186,1);
+    line-height:40rpx;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.record-item{
+    height: 192rpx;
+    background: #FFFFFF;
+}
+.record-line{
+    background: #E0E2E6;
+    height: 2rpx;
+    margin: 0 30rpx;
+}
+.record-contet{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    height: 110rpx;
+    padding: 40rpx 30rpx;
+}
+.record-icon{
+    width: 112rpx;
+    height: 112rpx;
+    border-radius:56rpx;
+    background: rgba(162,169,186,1);
+}
+.chunLei{
+    background: rgba(0,0,0,1);
+    opacity:0.8;
+}
+.condition{
+    width:100%;
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    height: 100rpx;
+    font-size:28rpx;
+}
+.condition-pic{
+    width: 48rpx;
+    height: 48rpx;
+    margin-left: 8rpx;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.tabbar-box{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+}
+.tabbar-box .itme{
+    height: 92rpx;
+    width: 50%;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    font-weight:300;
+    color:rgba(22,32,46,1);
+    /* position: relative; */
+}
+.dot{
+    /* position: absolute; */
+    margin-top: -30rpx;
+    margin-left: -6rpx;
+    width: 12rpx;
+    height: 12rpx;
+    background-color: #F7CF41;
+    border-radius:50%;
+}
+.tabbar-box .itme .activetext{
+    font-size:32rpx;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    background-image: -webkit-linear-gradient(250deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-image: linear-gradient(200deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 12rpx;
+    background-position: 0 110%;
+    line-height: 40rpx;
+}
+.activeconditiontext{
+    color: #03BE90;
+}
+

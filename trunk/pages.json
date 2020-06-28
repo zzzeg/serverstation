@@ -1,0 +1,302 @@
+{
+    "pages": [
+        {
+            "path": "pages/me/login",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle":"custom",
+                "app-plus":{
+                "titleView":false
+                }
+            }
+        },
+        {
+            "path": "pages/me/me",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },
+        {
+            "path": "pages/discriminate/discriminate",
+            "style": {
+                "navigationBarTitleText": "辩证记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/order/orderList",
+            "style": {
+                "navigationBarTitleText": "消费记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8",
+                "enablePullDownRefresh": true
+            }
+        },{
+            "path": "pages/discriminate/discriminateDetails",
+            "style": {
+                "navigationBarTitleText": "辩证记录详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/order/orderDetails",
+            "style": {
+                "navigationBarTitleText": "消费详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/aldiscriminate/welcome",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle":"custom",
+                "app-plus":{
+                "titleView":false
+                }
+            }
+        },{
+            "path": "pages/discriminate/aldiscriminate/index",
+            "style": {
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationStyle":"custom"
+                
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/basicInfo",
+            "style": {
+                "navigationBarTitleText": "基本信息",
+                "navigationBarBackgroundColor": "#148973",
+                "backgroundColor": "#148973",
+                "navigationBarTextStyle": "#ffffff"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/healthInfo",
+            "style": {
+                // "navigationBarTitleText": "健康信息",
+                "navigationBarBackgroundColor": "#148973",
+                // "backgroundColor": "#148973",
+                // "navigationBarTextStyle": "#ffffff",
+                "navigationStyle":"custom"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/faceCamera",
+            "style": {
+                // "navigationBarTitleText": "健康信息",
+                // "navigationBarBackgroundColor": "#148973",
+                // "backgroundColor": "#148973",
+                // "navigationBarTextStyle": "#ffffff",
+                "navigationStyle":"custom"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/faceRecognize",
+            "style": {
+                "navigationStyle":"custom"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/tongueFront",
+            "style": {
+                "navigationStyle":"custom"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/tongueContrary",
+            "style": {
+                "navigationStyle":"custom"
+            }
+        },{
+            "path":"pages/discriminate/aldiscriminate/recognizeFailure",
+            "style": {
+                "navigationBarTitleText": "面相舌象",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/report",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/order",
+            "style": {
+                "navigationBarTitleText": "订单",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/pay",
+            "style": {
+                "navigationBarTitleText": "支付",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/paySuccess",
+            "style": {
+                "navigationBarTitleText": "支付",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/discriminate/chooseGoos",
+            "style": {
+                "navigationBarTitleText": "购买",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/authoritative/authoritative",
+            "style": {
+                "navigationBarTitleText": "管家",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/authoritative/consultDetails",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/authoritative/phoneConsult",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/statistics/statistics",
+            "style": {
+                "navigationBarTitleText": "数据",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/study/study",
+            "style": {
+                "navigationBarTitleText": "学习",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/study/studyList",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/study/course",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/study/courseDetails",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/tools/tools",
+            "style": {
+                "navigationBarTitleText": "工具",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8",
+                "enablePullDownRefresh": true
+            }
+        },{
+            "path": "pages/tools/toolsDetails",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+                
+            }
+        },{
+            "path": "pages/me/standQrcode",
+            "style": {
+                "navigationBarTitleText": "服务站二维码",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },{
+            "path": "pages/statistics/billingList",
+            "style": {
+                "navigationBarTitleText": "结算记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },
+        {
+            "path":"pages/statistics/statisticsCharts",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+            }
+        },
+        {
+            "path":"pages/tools/share",
+            "style": {
+                "navigationBarTitleText": "海报分享",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "backgroundColor": "#F7F7F8"
+                // "usingComponents":{
+                //     "zhibo":"/wxcomponents/zhibo/index"
+                // }
+            }
+        }
+    ],
+  
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        // "navigationBarTitleText": "演示",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#03BE90",
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+        {
+            "pagePath": "pages/statistics/statistics",
+            "iconPath": "static/image/icon_cd_sj_default.png",
+            "selectedIconPath": "static/image/icon_cd_sj_highlight.png",
+            "text": "数据"
+        }, {
+            "pagePath": "pages/study/study",
+            "iconPath": "static/image/icon_cd_xx_default.png",
+            "selectedIconPath": "static/image/icon_cd_xx_highlight.png",
+            "text": "学习"
+        },
+        {
+            "pagePath": "pages/authoritative/authoritative",
+            "iconPath": "static/image/icon_cd_gj_default.png",
+            "selectedIconPath": "static/image/icon_cd_gj_highlight.png",
+            "text": "管家"
+        },
+        {
+            "pagePath": "pages/tools/tools",
+            "iconPath": "static/image/icon_cd_gongju_default.png",
+            "selectedIconPath": "static/image/icon_cd_gongju_highlight.png",
+            "text": "工具"
+        },
+        {
+            "pagePath": "pages/me/me",
+            "iconPath": "static/image/icon_cd_wd_default.png",
+            "selectedIconPath": "static/image/icon_cd_wd_highlight.png",
+            "text": "我的"
+        }]
+    }
+}

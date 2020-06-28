@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "辩证记录",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#F7F7F8",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more"
+  }
+}

@@ -1,0 +1,58 @@
+
+page {
+	background: #F7F7F8;
+}
+.amount{
+    width: calc(50% - 15rpx);
+    height: 186rpx;
+    background:-webkit-linear-gradient(135deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background:linear-gradient(315deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    border-radius:30rpx;
+    font-size:42rpx;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    text-align: center;
+}
+.menubox{
+    padding: 10rpx 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    color: #16202E;
+    font-weight:400;
+}
+.activate{
+    font-weight: 500;
+    background-image: -webkit-linear-gradient(250deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-image: linear-gradient(200deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 12rpx;
+    background-position: 0 85%;
+    line-height: 40rpx;
+}
+.record-box{
+    font-size:28rpx;
+    font-weight:400;
+    color:rgba(162,169,186,1);
+    padding: 30rpx;
+    margin:15rpx 30rpx;
+    background: #FFFFFF;
+}
+.record-top{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+}
+.record-top image{
+    width: 36rpx;
+    height: 36rpx;
+}
+

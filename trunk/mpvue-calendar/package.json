@@ -1,0 +1,90 @@
+{
+  "_from": "mpvue-calendar",
+  "_id": "mpvue-calendar@2.3.5",
+  "_inBundle": false,
+  "_integrity": "sha1-BOopHzwPToU3B4Jmlpjb0XMZTTU=",
+  "_location": "/mpvue-calendar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mpvue-calendar",
+    "name": "mpvue-calendar",
+    "escapedName": "mpvue-calendar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/mpvue-calendar/download/mpvue-calendar-2.3.5.tgz",
+  "_shasum": "04ea291f3c0f4e85370782669698dbd173194d35",
+  "_spec": "mpvue-calendar",
+  "_where": "/Users/liguangjian/Downloads/归档/uuu",
+  "author": {
+    "name": "hzy"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/Hzy0913/mpvue-calendar/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "vue calendar mpvue-calendar vue-calendar",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "homepage": "https://github.com/Hzy0913/mpvue-calendar#readme",
+  "keywords": [
+    "mpvue",
+    "vue",
+    "calendar",
+    "小程序",
+    "日历组件"
+  ],
+  "license": "MIT",
+  "main": "src/mpvue-calendar.vue",
+  "name": "mpvue-calendar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hzy0913/mpvue-calendar.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "publish": "npm publish --registry https://registry.npmjs.org",
+    "start": "vue-cli-service serve"
+  },
+  "version": "2.3.5"
+}

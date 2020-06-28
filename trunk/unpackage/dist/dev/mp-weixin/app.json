@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/me/login",
+    "pages/me/me",
+    "pages/discriminate/discriminate",
+    "pages/order/orderList",
+    "pages/discriminate/discriminateDetails",
+    "pages/order/orderDetails",
+    "pages/discriminate/aldiscriminate/welcome",
+    "pages/discriminate/aldiscriminate/index",
+    "pages/discriminate/aldiscriminate/basicInfo",
+    "pages/discriminate/aldiscriminate/healthInfo",
+    "pages/discriminate/aldiscriminate/faceCamera",
+    "pages/discriminate/aldiscriminate/faceRecognize",
+    "pages/discriminate/aldiscriminate/tongueFront",
+    "pages/discriminate/aldiscriminate/tongueContrary",
+    "pages/discriminate/aldiscriminate/recognizeFailure",
+    "pages/discriminate/report",
+    "pages/discriminate/order",
+    "pages/discriminate/pay",
+    "pages/discriminate/paySuccess",
+    "pages/discriminate/chooseGoos",
+    "pages/authoritative/authoritative",
+    "pages/authoritative/consultDetails",
+    "pages/authoritative/phoneConsult",
+    "pages/statistics/statistics",
+    "pages/study/study",
+    "pages/study/studyList",
+    "pages/study/course",
+    "pages/study/courseDetails",
+    "pages/tools/tools",
+    "pages/tools/toolsDetails",
+    "pages/me/standQrcode",
+    "pages/statistics/billingList",
+    "pages/statistics/statisticsCharts",
+    "pages/tools/share"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#03BE90",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/statistics/statistics",
+        "iconPath": "static/image/icon_cd_sj_default.png",
+        "selectedIconPath": "static/image/icon_cd_sj_highlight.png",
+        "text": "数据"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "static/image/icon_cd_xx_default.png",
+        "selectedIconPath": "static/image/icon_cd_xx_highlight.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/authoritative/authoritative",
+        "iconPath": "static/image/icon_cd_gj_default.png",
+        "selectedIconPath": "static/image/icon_cd_gj_highlight.png",
+        "text": "管家"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "iconPath": "static/image/icon_cd_gongju_default.png",
+        "selectedIconPath": "static/image/icon_cd_gongju_highlight.png",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/image/icon_cd_wd_default.png",
+        "selectedIconPath": "static/image/icon_cd_wd_highlight.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

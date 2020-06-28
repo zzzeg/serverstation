@@ -1,0 +1,41 @@
+
+.title{
+    font-size:38rpx;
+    font-weight:600;
+    color:rgba(22,32,46,1);
+    line-height:52rpx;
+    text-align: center;
+}
+.haibao{
+    margin: 60rpx;
+    width:calc(100% - 100rpx);
+    height:1140rpx;
+    padding-top: 20rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 10rpx 30rpx 0px rgba(134,142,157,0.5);
+    border-radius:30rpx;
+}
+.can{
+    height:100%;
+    width:100%;
+}
+.qqqrrrcode{
+    position: absolute; 
+    left: -500rpx;
+    background: #FFFFFF;
+}
+.saveBtn{
+    
+    margin: 50rpx;
+    width:calc(100% - 100rpx);
+    height:100rpx;
+    background:-webkit-linear-gradient(217deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background:linear-gradient(233deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    box-shadow:0px 6rpx 30rpx 0px rgba(3,190,144,0.3);
+    border-radius:50rpx;
+    font-size:32rpx;
+    line-height: 100rpx;
+    color: #FFFFFF;
+    text-align: center;
+}
+

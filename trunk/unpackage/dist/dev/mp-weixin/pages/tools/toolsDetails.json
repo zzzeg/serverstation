@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#F7F7F8",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

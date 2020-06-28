@@ -1,0 +1,1 @@
+<view class="content"><view><video id="myVideo" src="{{src}}" title="{{videoTitle}}" enable-danmu="{{true}}" controls="{{true}}" data-event-opts="{{[['error',[['videoErrorCallback',['$event']]]]]}}" binderror="__e"></video></view><view style="padding:20rpx 30rpx;font-size:36rpx;font-weight:500;">{{''+videoTitle+''}}</view></view>

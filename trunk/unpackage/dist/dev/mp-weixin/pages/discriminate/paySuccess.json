@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "支付",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#F7F7F8",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

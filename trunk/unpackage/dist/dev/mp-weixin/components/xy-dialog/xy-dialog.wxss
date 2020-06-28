@@ -1,0 +1,488 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ssssss.data-v-458bb176 {
+  width: 100%;
+}
+.close-btn.data-v-458bb176 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: calc(100% - 60rpx);
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  color: #FFFFFF;
+  height: 100rpx;
+  background: -webkit-linear-gradient(217deg, #88e296 0%, #03be90 100%);
+  background: linear-gradient(233deg, #88e296 0%, #03be90 100%);
+  box-shadow: 0px 6rpx 30rpx 0px rgba(3, 190, 144, 0.3);
+  border-radius: 50rpx;
+}
+.doctors-head.data-v-458bb176 {
+  width: 122rpx;
+  height: 122rpx;
+  margin-right: 20rpx;
+  border-radius: 66rpx;
+}
+.doctors-head image.data-v-458bb176 {
+  width: 122rpx;
+  height: 122rpx;
+  border-radius: 66rpx;
+}
+.doctors-name.data-v-458bb176 {
+  font-size: 52rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222222;
+  line-height: 72rpx;
+}
+.doctors-title.data-v-458bb176 {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 44rpx;
+}
+.biaozhi.data-v-458bb176 {
+  width: 98rpx;
+  height: 52rpx;
+  margin-left: 20rpx;
+  line-height: 52rpx;
+  background: #f7cf41;
+  border-radius: 32rpx 32rpx 32rpx 0px;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  text-align: center;
+}
+.degree.data-v-458bb176 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #222222;
+  line-height: 44rpx;
+  margin-left: 40rpx;
+}
+.degree-view.data-v-458bb176 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-left: 30rpx;
+  width: 110rpx;
+  margin-bottom: 30rpx;
+  margin-top: 10rpx;
+}
+.degree-view-item.data-v-458bb176 {
+  width: 16rpx;
+  height: 32rpx;
+  background: #eaecf3;
+  border-radius: 10rpx;
+}
+.activationDegree.data-v-458bb176 {
+  background: #4987ea;
+}
+.app-more.data-v-458bb176 {
+  text-align: center;
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 44rpx;
+}
+.app-analysis-box.data-v-458bb176 {
+  background: #eff1f6;
+  border-radius: 30rpx;
+  margin: 60rpx 30rpx 30rpx 30rpx;
+}
+.analysis-title.data-v-458bb176 {
+  font-size: 40rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222222;
+  line-height: 56rpx;
+  padding: 40rpx 40rpx 22rpx 40rpx;
+}
+.analysis-des.data-v-458bb176 {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 40rpx;
+  padding: 0rpx 40rpx 40rpx 40rpx;
+}
+.app-des.data-v-458bb176 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 36rpx;
+  margin: 0 30rpx;
+  margin-top: 20rpx;
+}
+.app-box.data-v-458bb176 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 30rpx;
+}
+.app-name.data-v-458bb176 {
+  font-size: 56rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222222;
+  line-height: 80rpx;
+}
+.app-logo.data-v-458bb176 {
+  width: 80rpx;
+  height: 80rpx;
+}
+.member-box.data-v-458bb176 {
+  margin: 40rpx;
+}
+.top-box.data-v-458bb176 {
+  width: 80rpx;
+  height: 8rpx;
+  background: #d8d8d8;
+  border-radius: 8rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.icon_gb.data-v-458bb176 {
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  width: 48rpx;
+  height: 48rpx;
+  float: right;
+}
+.report-item-title.data-v-458bb176 {
+  padding-left: 24rpx;
+  padding-top: 112rpx;
+  font-size: 52rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #222222;
+  line-height: 74rpx;
+}
+.num-box.data-v-458bb176 {
+  width: 200rpx;
+  height: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-top: 6rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.num-box-item.data-v-458bb176 {
+  width: 48rpx;
+  height: 20rpx;
+}
+.data-v-458bb176::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.disease-desc.data-v-458bb176 {
+  text-align: right;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #222222;
+  line-height: 34rpx;
+}
+.diseasebox.data-v-458bb176 {
+  margin: 40rpx 40rpx 20rpx 40rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #545454;
+  line-height: 44rpx;
+}
+.disease-content.data-v-458bb176 {
+  margin-top: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.relation-item.data-v-458bb176 {
+  width: 100%;
+  height: 104rpx;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.relation-title.data-v-458bb176 {
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 40rpx;
+  margin: 40rpx;
+}
+.relation-item text.data-v-458bb176 {
+  margin-left: 40rpx;
+}
+.relation-item image.data-v-458bb176 {
+  margin-right: 40rpx;
+  width: 26rpx;
+  height: 18rpx;
+}
+.active.data-v-458bb176 {
+  background: #edeef3;
+}
+.express.data-v-458bb176 {
+  width: 100%;
+  height: 128rpx;
+  background: whitesmoke;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.sendbtn.data-v-458bb176 {
+  width: 480rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #03be90;
+  box-shadow: 0px 6rpx 20rpx 0px rgba(3, 190, 144, 0.3);
+  border-radius: 52rpx;
+  opacity: 0.3;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40rpx;
+  margin-top: 80rpx;
+}
+.activate.data-v-458bb176 {
+  opacity: 1;
+}
+.express input.data-v-458bb176 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+}
+.express-title.data-v-458bb176 {
+  width: 206rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #222222;
+  text-align: center;
+}
+.member-content.data-v-458bb176 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.express-scan.data-v-458bb176 {
+  width: 90rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+}
+.express-scan image.data-v-458bb176 {
+  width: 52rpx;
+  height: 52rpx;
+  margin-top: 28rpx;
+}
+.member-title.data-v-458bb176 {
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 40rpx;
+}
+.member-user.data-v-458bb176 {
+  width: 22%;
+  padding: 9rpx;
+  position: relative;
+  text-align: center;
+}
+.recordhead.data-v-458bb176 {
+  height: 116rpx;
+  width: 116rpx;
+  border-radius: 58rpx;
+}
+.recordname.data-v-458bb176 {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #545454;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.selecticon.data-v-458bb176 {
+  position: absolute;
+  top: 2rpx;
+  right: 22rpx;
+  height: 44rpx;
+  width: 44rpx;
+}
+.member-btn.data-v-458bb176 {
+  margin: 66rpx 135rpx 66rpx 135rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #03be90;
+  box-shadow: 0px 6px 30px 0px rgba(3, 190, 144, 0.35);
+  border-radius: 45rpx;
+  color: #ffffff;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+}
+[class*='dialog-hairline'].data-v-458bb176::after {
+  content: ' ';
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  -webkit-transform: all 0.2s ease-in;
+  transform: all 0.2s ease-in;
+  border: 0 solid #ebedf0;
+}
+.dialog.data-v-458bb176 {
+  width: 100%;
+  height: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99910;
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.dialog.dialog-visibility.data-v-458bb176 {
+  visibility: visible;
+  height: 100%;
+}
+.dialog .dialog-model.data-v-458bb176 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99920;
+}
+.dialog .dialog-wrap.data-v-458bb176 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  bottom: 0;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 40rpx 40rpx 0rpx 0rpx;
+  -webkit-transform: all 0.2s ease-in;
+  transform: all 0.2s ease-in;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 99950;
+}
+.dialog .dialog-wrap.isVisibility.data-v-458bb176 {
+  height: 90%;
+}
+.dialog .dialog-wrap.visibility.data-v-458bb176 {
+  height: 85%;
+}
+

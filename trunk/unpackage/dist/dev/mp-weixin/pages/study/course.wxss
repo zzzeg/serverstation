@@ -1,0 +1,93 @@
+
+.courseBox{
+    padding: 0rpx 40rpx 40rpx 40rpx;
+}
+.courseBox image{
+    width: 100%;
+    height: 416rpx;
+    border-radius:20rpx;
+    background: #F8F8F8;
+}
+.courseTitle{
+    margin-top: 20rpx;
+}
+.timeBox{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+}
+.timeBox image{
+    width: 36rpx;
+    height: 36rpx;
+}
+.timeBox .time{
+    font-size:28rpx;
+    font-weight:400;
+    color:rgba(134,142,157,1);
+    line-height:40rpx;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+}
+.timeBox .timeBtn{
+    border: #03BE90 2rpx solid;
+    font-size:24rpx;
+    font-weight:400;
+    color:rgba(3,190,144,1);
+    width:88rpx;
+    height:44rpx;
+    border-radius:30rpx;
+    text-align: center;
+    line-height: 44rpx;
+}
+.tabbar-box{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+}
+.tabbar-box .itme{
+    height: 92rpx;
+    width: 50%;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    font-weight:300;
+    color:rgba(22,32,46,1);
+    /* position: relative; */
+}
+.tabbar-box .itme .activetext{
+    font-size:32rpx;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    background-image: -webkit-linear-gradient(250deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-image: linear-gradient(200deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 12rpx;
+    background-position: 0 110%;
+    line-height: 40rpx;
+}
+.introduceTitle{
+    margin: 20rpx 0rpx;
+    font-size:36rpx;
+    font-weight:500;
+    color:rgba(22,32,46,1);
+}
+

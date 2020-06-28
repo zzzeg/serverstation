@@ -1,0 +1,1 @@
+<view><web-view webview-styles="{{webviewStyles}}" src="{{url}}" data-event-opts="{{[['message',[['postMessage',['$event']]]],['onPostMessage',[['postMessage',['$event']]]]]}}" bindmessage="__e" bindonPostMessage="__e"></web-view></view>

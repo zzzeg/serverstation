@@ -1,0 +1,105 @@
+
+page {
+    	background: #F7F7F8;
+}
+.content {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.record-name{
+        /* flex: 1; */
+        font-size: 25rpx;
+        font-weight: 400;
+        color: rgba(162,169,186,1);
+}
+.record-details{
+        -webkit-align-self:flex-end;
+                align-self:flex-end;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+        text-align: right;
+        font-size: 25rpx;
+        font-weight: 400;
+        color: rgba(162,169,186,1);
+}
+.record-top .jiantou{
+        width: 16rpx;
+        height: 26rpx;
+        -webkit-align-self:center;
+                align-self:center;
+        margin-left: 10rpx;
+}
+.discriminate-btn{
+        margin-top: 30rpx;
+        width: calc(100% - 100rpx);
+        height: 160rpx; 
+        background:-webkit-linear-gradient(223deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%); 
+        background:linear-gradient(227deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+        box-shadow:0px 5px 30px 0px rgba(3,190,144,0.2);
+        border-radius:20px;
+        font-size:36rpx;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        line-height:160rpx;
+        text-align: left;
+        padding-left: 40rpx;
+        position: relative;
+}
+.discriminate-btn image{
+        width: 86rpx;
+        height: 86rpx;
+        position: absolute;
+        right: 20rpx;
+        bottom: 26rpx;
+}
+.discriminateText{
+        margin-top: 40rpx;
+        font-size:36rpx;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(22,32,46,1);
+        line-height:50rpx;
+        width: calc(100% - 100rpx);
+        text-align: left;
+        padding-left: 40rpx;
+}
+.mingpian{
+        width:32rpx;
+        height:32rpx;
+        margin-top: 5rpx;
+        margin-right: 6rpx;
+}
+.record-time{
+        width:112rpx;
+        height:40rpx;
+        border-radius:24rpx;
+        
+        font-size:24rpx;
+        font-weight:400;
+        color:#C6CAD4;
+        border:2rpx solid #C6CAD4;
+        text-align: center;
+        line-height: 40rpx;
+}
+.aaa{
+        border:2rpx solid rgba(1,156,117,1);
+        color:rgba(1,156,117,1);
+}
+.record-reporttype{
+        font-size:32rpx;
+        color:rgba(22,32,46,1);
+}
+

@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*每个页面公共css */
+.line20{
+        height: 20rpx;
+        background:rgba(239,241,246,1);
+}
+.empty-box{
+        height: 50rpx;
+}
+.empty-box30{
+        height: 30rpx;
+}
+.record-time{
+        margin-top: 20rpx;
+        font-size:25rpx;
+        font-family:NotoSansCJKsc-Regular,NotoSansCJKsc;
+        font-weight:400;
+        color:rgba(162,169,186,1);
+        line-height:38rpx;
+}
+.record-notes{
+        margin-top: 20rpx;
+        padding: 21rpx;
+        background:rgba(237,245,255,1);
+        border-radius:21rpx;
+        
+        font-size:27rpx;
+        font-family:NotoSansCJKsc-Regular,NotoSansCJKsc;
+        font-weight:400;
+        color:rgba(67,78,94,1);
+        line-height:40rpx;
+}
+.record-info{
+        margin-top: 20rpx;
+        font-size:29rpx;
+        font-family:NotoSansCJKsc-Regular,NotoSansCJKsc;
+        font-weight:400;
+        color:rgba(67,78,94,1);
+        line-height:42rpx;
+}
+.record-details{
+        font-size:29rpx;
+        font-family:NotoSansCJKsc-Regular,NotoSansCJKsc;
+        font-weight:400;
+        color:rgba(67,78,94,1);
+        line-height:52rpx;
+}
+.record-top{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+                flex-direction: row;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+                justify-content: space-between;
+}
+.record-box{
+        margin: 31rpx 33rpx 0rpx 33rpx;
+        width: calc(100% - 120rpx);
+        background:rgba(255,255,255,1);
+        border-radius:21rpx;
+        padding: 31rpx 21rpx;
+}
+.nodata{
+        text-align: center;
+        margin-top: 300rpx;
+        color: #868E9D;
+        font-size:32rpx;
+}
+.nodata image{
+        width: 232rpx;
+        height: 232rpx;
+}
+

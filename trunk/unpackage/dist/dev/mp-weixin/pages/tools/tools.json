@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "工具",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#F7F7F8",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

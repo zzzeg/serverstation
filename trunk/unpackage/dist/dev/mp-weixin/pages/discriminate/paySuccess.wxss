@@ -1,0 +1,50 @@
+
+page{
+    background: #EFF1F6;
+}
+.content{
+    text-align: center;
+}
+.wxzflogo{
+    width: 132rpx;
+    height: 132rpx;
+    margin-top: 92rpx;
+}
+.wxzftishi{
+    font-size:32rpx;
+    font-family:NotoSansCJKsc-Regular,NotoSansCJKsc;
+    font-weight:400;
+    color:rgba(67,78,94,1);
+    line-height:48rpx;
+}
+.money{
+    margin: 30rpx 0rpx;
+    font-size:46px;
+    font-family:NotoSansCJKsc-Medium,NotoSansCJKsc;
+    font-weight:500;
+    color:rgba(22,32,46,1);
+    line-height:68px;
+}
+.qrcore{
+    width: 490rpx;
+    height: 490rpx;
+
+    width: 100%;
+}
+.shuaxin{
+    margin-top: 20rpx;
+    margin-left: calc(50% - 200rpx);
+    width:400rpx;
+    height:100rpx;
+    background:-webkit-linear-gradient(217deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    background:linear-gradient(233deg,rgba(136,226,150,1) 0%,rgba(3,190,144,1) 100%);
+    box-shadow:0px 3px 15px 0px rgba(3,190,144,0.3);
+    border-radius:25px;
+    font-size:32rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:100rpx;
+}
+
+

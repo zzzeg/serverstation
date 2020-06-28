@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#F7F7F8",
+  "usingComponents": {
+    "calendar": "/mpvue-calendar/src/mpvue-calendar"
+  }
+}
